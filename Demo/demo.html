@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>EventLibrary demo</title>
+  <link rel="stylesheet" type="text/css" href="eventlibrary.css">
+  <script src="eventlibrary.js"></script>
+  <script src="events.js"></script>
+</head>
+
+<body>
+  <main>
+    <!-- Container element for EventLibrary -->
+    <div id="event-wrapper">
+
+    </div>
+
+  </main>
+</body>
+
+<script>
+  EventLibrary.init({
+    wrapper: "event-wrapper",
+    events: events,
+  });
+</script>
+
+</html>

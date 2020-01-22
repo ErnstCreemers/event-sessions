@@ -35,13 +35,13 @@ This Library is developed for all those wo would like to add an agenda list for 
   EventLibrary.init({
     selector: "event-wrapper",
     events: [{
-        place: 'innovation session',
-        location: 'evoluon',
+        place: 'EINDHOVEN',
+        location: 'GENNEPER PARKEN',
         info: 'RESERVE',
         availability: 5,
         eventcolor: "green",
-        backgroundimage: 'evoluon.jpg',
-        link: "https://www.youtube.com/watch?v=FOXdD5fZScQ"
+        backgroundimage: 'eindhoven1.jpg',
+        link: "https://www.youtube.com/watch?v=leYgTALl2xw"
       }
      ]
   });
